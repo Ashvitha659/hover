@@ -1,0 +1,38 @@
+body {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: black;
+    color: antiquewhite;
+}
+
+h1 {
+    color: rgb(31, 154, 154);
+}
+
+a {
+    color:rgb(171, 128, 211);
+    text-decoration: none;
+}
+a:hover {
+    color:rgb(14, 111, 221)
+}
+ul > li {
+    font-weight: bold;
+}
+h1 + p {
+    background-color: black;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+ul li:hover {
+    color:rgb(171, 223, 244)
+}
+
+p:not(:first-of-type) {
+    text-decoration: underline;
+}
+
+p::first-letter {
+    font-size:200%;
+    color:rgb(218, 72, 72)
+}
